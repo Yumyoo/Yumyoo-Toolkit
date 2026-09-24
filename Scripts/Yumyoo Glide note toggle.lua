@@ -1,6 +1,7 @@
--- 
- 
--- 
+-- @description Yumyoo Auto Glide Toggle
+-- @author Yumyoo
+-- @version 1.0
+
 local ed = reaper.MIDIEditor_GetActive()
 if not ed then return end
 
