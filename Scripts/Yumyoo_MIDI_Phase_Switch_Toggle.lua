@@ -1,7 +1,7 @@
 -- @description Yumyoo MIDI Phase Switch Toggle
 -- @author Yumyoo
 -- @version 1.0
--- @provides [midi_editor]
+-- @provides [main=midi_editor] Yumyoo_MIDI_Phase_Switch_Toggle.lua
 -- @about Toggles selected MIDI notes between Channel 1 and Channel 2. Designed as the companion script for the Yumyoo MIDI Phase Switch JSFX plugin to trigger per-note audio polarity inversion.
 
 local editor = reaper.MIDIEditor_GetActive()
