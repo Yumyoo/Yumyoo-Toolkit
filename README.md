@@ -11,7 +11,10 @@ A collection of custom REAPER Lua scripts and JSFX built to streamline modern be
 
 ## Installation via ReaPack
 
-1. Copy this repository URL: `https://github.com/Yumyoo/Yumyoo-Toolkit/raw/master/index.xml`
+1. Copy this repository URL: 
+   ```text
+   https://github.com/Yumyoo/Yumyoo-Toolkit/raw/master/index.xml
+   ```
 2. In REAPER, navigate to **Extensions** > **ReaPack** > **Import repositories**.
 3. Paste the URL and click **OK**.
 4. Navigate to **Extensions** > **ReaPack** > **Browse packages**, search for "Yumyoo", right-click the scripts you want, select **Install**, and click **Apply** in the bottom right.
