@@ -1,54 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Yumyoo Toolkit" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
+<index version="1" name="Yumyoo Toolkit" commit="d8f5dd3019d1ceef773a43aca9b863f56d3db7e6">
+  <category name="JSFX">
+    <reapack name="Yumyoo_Master_Key.jsfx" type="effect" desc="Yumyoo Master Key">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A global master/slave transposition engine. Broadcasts pitch and scale changes across the entire project, manipulating both MIDI note data and real-time audio DSP seamlessly via global memory routing.\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      <version name="1.0" author="Yumyoo" time="2026-09-24T09:10:18Z">
+        <source>https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/JSFX/Yumyoo_Master_Key.jsfx</source>
+      </version>
+    </reapack>
+    <reapack name="Yumyoo_MIDI_Phase_Switch.jsfx" type="effect" desc="Yumyoo MIDI Phase Switch">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Inverts audio polarity in real-time when triggered by MIDI Channel 2 notes. Features a mathematical smoothing engine to prevent zero-crossing audio pops.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Yumyoo" time="2026-09-24T09:10:18Z">
+        <source>https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/JSFX/Yumyoo_MIDI_Phase_Switch.jsfx</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Scripts">
+    <reapack name="Yumyoo FL Style Glide.lua" type="script" desc="Yumyoo Auto Glide - Defer Script">
+      <version name="2" author="Yumyoo (Edit by Grayson Solis)" time="2026-09-24T09:10:18Z">
+        <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/Scripts/Yumyoo%20FL%20Style%20Glide.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Yumyoo Glide note toggle.lua" type="script" desc="Yumyoo Auto Glide Toggle">
+      <version name="1.0" author="Yumyoo" time="2026-09-24T09:33:58Z">
+        <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/d8f5dd3019d1ceef773a43aca9b863f56d3db7e6/Scripts/Yumyoo%20Glide%20note%20toggle.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Yumyoo_MIDI_Phase_Switch_Toggle.lua" type="script" desc="Yumyoo MIDI Phase Switch Toggle">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggles selected MIDI notes between Channel 1 and Channel 2. Designed as the companion script for the Yumyoo MIDI Phase Switch JSFX plugin to trigger per-note audio polarity inversion.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Yumyoo" time="2026-09-24T09:10:18Z">
+        <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/Scripts/Yumyoo_MIDI_Phase_Switch_Toggle.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Yumyoo_RS5K_Root_Finder.lua" type="script" desc="Yumyoo RS5K Root Finder">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 A background script that monitors ReaSamplOmatic5000 instances. It automatically parses loaded sample filenames for musical keys (e.g., '808 [C#].wav') and calculates the exact mathematical offset to tune the sample UP to A4.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Yumyoo" time="2026-09-24T09:10:18Z">
+        <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/Scripts/Yumyoo_RS5K_Root_Finder.lua</source>
       </version>
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
-}}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
-}}}
-.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Yumyoo Toolkit\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A collection of custom REAPER Lua scripts and JSFX built to streamline modern beatmaking, MIDI sequencing, and sampling workflows.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Included Tools\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b FL Studio-Style Auto Glide & Toggle:} A defer script and companion toggle action that brings native FL Studio-style overlapping note glide behavior directly into REAPER's MIDI editor. It automatically calculates and applies precise pitch bend messages between overlapping notes, optimized for 808s and synth leads.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Master Key Transposer:} A project-wide utility that allows you to globally manage, transpose, and shift the root musical key of your project across multiple MIDI items and tracks simultaneously.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b MIDI Phase Plugin & Toggle:} A JSFX and companion toggle script designed to flip the polarity/phase of a track directly at the instrument generation stage, allowing for quick phase alignment of layered synths or basses without needing to bounce MIDI to audio first.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b RS5k Root Note Finder:} A workflow enhancement for ReaSamplomatic5000 that automatically detects and assigns the correct root MIDI note for loaded samples, eliminating the need to manually pitch-match and tune imported one-shots.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation via ReaPack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Copy this repository URL: {\f1 https://github.com/Yumyoo/Yumyoo-Toolkit/raw/master/index.xml}\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab In REAPER, navigate to {\b Extensions} > {\b ReaPack} > {\b Import repositories}.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Paste the URL and click {\b OK}.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Navigate to {\b Extensions} > {\b ReaPack} > {\b Browse packages}, search for "Yumyoo", right-click the scripts you want, select {\b Install}, and click {\b Apply} in the bottom right.\sa180\par}
 }
 ]]></description>
   </metadata>
