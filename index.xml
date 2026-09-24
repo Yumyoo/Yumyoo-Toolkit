@@ -83,7 +83,8 @@
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b MIDI Phase Plugin & Toggle:} A JSFX and companion toggle script designed to flip the polarity/phase of a track directly at the instrument generation stage, allowing for quick phase alignment of layered synths or basses without needing to bounce MIDI to audio first.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b RS5k Root Note Finder:} A workflow enhancement for ReaSamplomatic5000 that automatically detects and assigns the correct root MIDI note for loaded samples, eliminating the need to manually pitch-match and tune imported one-shots.\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation via ReaPack\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Copy this repository URL: {\f1 https://github.com/Yumyoo/Yumyoo-Toolkit/raw/master/index.xml}\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Copy this repository URL:\par}
+{\pard \ql \f0 \sa180 \li360 \fi0 \f1 https://github.com/Yumyoo/Yumyoo-Toolkit/raw/master/index.xml\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab In REAPER, navigate to {\b Extensions} > {\b ReaPack} > {\b Import repositories}.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Paste the URL and click {\b OK}.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Navigate to {\b Extensions} > {\b ReaPack} > {\b Browse packages}, search for "Yumyoo", right-click the scripts you want, select {\b Install}, and click {\b Apply} in the bottom right.\sa180\par}
