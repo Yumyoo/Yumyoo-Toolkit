@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Yumyoo Toolkit" commit="d8f5dd3019d1ceef773a43aca9b863f56d3db7e6">
+<index version="1" name="Yumyoo Toolkit" commit="bb630cdf2a6b35b619a54f88f66bc602b420db04">
   <category name="JSFX">
     <reapack name="Yumyoo_Master_Key.jsfx" type="effect" desc="Yumyoo Master Key">
       <metadata>
@@ -40,6 +40,9 @@
       <version name="1.0" author="Yumyoo" time="2026-09-24T09:33:58Z">
         <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/d8f5dd3019d1ceef773a43aca9b863f56d3db7e6/Scripts/Yumyoo%20Glide%20note%20toggle.lua</source>
       </version>
+      <version name="1.1" author="Yumyoo" time="2026-09-24T14:55:41Z">
+        <source main="midi_editor">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/876d03cb65b6d5e142d19db78d27bc0369c5529f/Scripts/Yumyoo%20Glide%20note%20toggle.lua</source>
+      </version>
     </reapack>
     <reapack name="Yumyoo_MIDI_Phase_Switch_Toggle.lua" type="script" desc="Yumyoo MIDI Phase Switch Toggle">
       <metadata>
@@ -53,6 +56,9 @@
       </metadata>
       <version name="1.0" author="Yumyoo" time="2026-09-24T09:10:18Z">
         <source main="main">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/5e551a1a84e6195727d0762ecce87ff9322997ec/Scripts/Yumyoo_MIDI_Phase_Switch_Toggle.lua</source>
+      </version>
+      <version name="1.1" author="Yumyoo" time="2026-09-24T14:56:05Z">
+        <source main="midi_editor">https://github.com/Yumyoo/Yumyoo-Toolkit/raw/bb630cdf2a6b35b619a54f88f66bc602b420db04/Scripts/Yumyoo_MIDI_Phase_Switch_Toggle.lua</source>
       </version>
     </reapack>
     <reapack name="Yumyoo_RS5K_Root_Finder.lua" type="script" desc="Yumyoo RS5K Root Finder">
